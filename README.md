@@ -68,33 +68,33 @@ The system interprets user requests, reasons through tasks, selects the appropri
 
 ## Setup & Execution
 
-**### Step 1 – Clone Repository**
+### Step 1 – Clone Repository
 ```bash
 git clone https://github.com/dhanasribasina16/Autonomous-AI-Agent.git
 cd Autonomous-AI-Agent
+```
 
-**### Step 2 – Install Dependencies**
-
+### Step 2 – Install Dependencies
 Install all required Python packages using:
-
-pip install -r requirements.txt
-
-**### Step 3 – Install Dependencies**
-Install all required Python packages using:
-
 ```bash
 pip install -r requirements.txt
+```
 
-**### Step 4 – Configure API Key**
-
-Create a .env file in the root directory and add:
-
+### Step 3 – Configure API Key
+Create a `.env` file in the root directory and add:
+```
 OPENAI_API_KEY=your_api_key_here
-**Step 5 – Run the Application
-**streamlit run app.py
+```
 
-**### System Workflow
-**
+### Step 4 – Run the Application
+```bash
+streamlit run app.py
+```
+
+---
+
+## System Workflow
+
 1. User enters a task through the interface  
 2. The LLM interprets the request  
 3. The agent reasons and selects the appropriate tool  
@@ -119,6 +119,9 @@ OPENAI_API_KEY=your_api_key_here
 
 - **Solve mathematical calculations**  
   Perform arithmetic operations such as `45 * 23` or `12% of 150` and receive instant results.
+
+---
+
 ## Future Enhancements
 
 - Advanced browser automation using Playwright  
@@ -132,12 +135,8 @@ OPENAI_API_KEY=your_api_key_here
 
 ## Contribution
 
-Contributions are welcome!  
 
-If you would like to improve this project:
-
-Contributions are welcome! Fork the repo, create a feature branch, and submit a pull request.  
-
+Contributions are welcome! Fork the repo, create a feature branch, and submit a pull request.
 
 
 ---
