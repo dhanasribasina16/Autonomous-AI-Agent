@@ -4,7 +4,6 @@ from agent import run_agent
 st.set_page_config(page_title="Autonomous AI Agent")
 
 st.title("🤖 Autonomous AI Agent")
-
 st.write("Enter a task and let the AI agent handle it.")
 
 user_input = st.text_input("Your task:")
