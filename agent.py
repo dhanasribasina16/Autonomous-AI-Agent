@@ -6,7 +6,6 @@ from langchain.agents import initialize_agent, Tool
 # Load API key
 load_dotenv()
 
-# -------- Tools (actions agent can perform) --------
 
 def calculator(query: str):
     """Simple calculator tool"""
@@ -24,7 +23,7 @@ tools = [
     )
 ]
 
-# -------- LLM --------
+
 
 llm = ChatOpenAI(
     temperature=0,
