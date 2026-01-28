@@ -66,20 +66,19 @@ The system interprets user requests, reasons through tasks, selects the appropri
 
 ---
 
-## Setup & Execution  
+## Setup & Execution
 
-### Step 1 – Clone Repository  
+**### Step 1 – Clone Repository**
 ```bash
 git clone https://github.com/dhanasribasina16/Autonomous-AI-Agent.git
 cd Autonomous-AI-Agent
 
----
 
-**### Step 2 – Clone Repository**
-```bash
-git clone https://github.com/dhanasribasina16/Autonomous-AI-Agent.git
-cd Autonomous-AI-Agent
----
+**### Step 2 – Install Dependencies**
+
+Install all required Python packages using:
+
+pip install -r requirements.txt
 
 **### Step 3 – Install Dependencies**
 Install all required Python packages using:
@@ -95,8 +94,8 @@ OPENAI_API_KEY=your_api_key_here
 **Step 5 – Run the Application
 **streamlit run app.py
 
-## System Workflow
-
+**### System Workflow
+**
 1. User enters a task through the interface  
 2. The LLM interprets the request  
 3. The agent reasons and selects the appropriate tool  
